@@ -1,0 +1,34 @@
+package javaworking1;
+///2 mutable and immutable
+class example1{
+     private final String s;
+     example1(final String s){
+        this.s=s;
+     }
+     
+     final String getname(){
+         return s;
+
+}   
+     }
+
+public class mutable {
+		  
+	public static void main(String[] args) {
+		 
+		// 2 mutable and imutable work
+		      example1 obj1=new example1("shis is shaidullah work");
+		     System.out.println(obj1.getname());
+		 
+		        
+		     String s="amini";
+		     s.concat("shahid");
+		     System.out.println(s);
+		       int x=12;
+		        x=44;
+		        System.out.println("x is = "+x+" \n\n");
+		         
+
+	}
+
+}
