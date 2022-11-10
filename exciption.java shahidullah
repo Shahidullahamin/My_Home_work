@@ -1,0 +1,22 @@
+package javaworking1;
+
+public class exciption {
+
+	public static void main(String[] args) {
+		int [] x = new int[5];
+		
+		try {
+			System.out.println(10/0);
+			System.out.println(x[10]);
+		}
+       catch(ArithmeticException e) {
+	   System.out.println("wrong division");
+	   System.out.println(10);
+       }
+		catch(Exception ea) {
+			System.out.println("wrong location accessing");
+			
+		}
+		System.out.println("reas of the progrom");
+	}
+}
